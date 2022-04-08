@@ -4,15 +4,31 @@
 <title>우리가족들</title>
 <meta charset="utf-8">
 <style>
-  a {color:black; text-decoration: none;}
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  #active {
+    color:red;
+  }
+  .saw {
+    color:gray;
+  }
+  h1 {font-size:45px;
+    text-align: center;
+    border:5px solid black;
+    padding:5px;
+    display: block;
+    width:480px
+  }
 </style>
 </head>
 <body>
   <h1><a href="index.html">우리 가족들</a></h1>
   <img src="my mom.jpg" width="500"><br>
   <ol>
-    <li><a href="1.html" style="color:red;text-decoration: underline;" >직계가족</a></li><br>
-    <li><a href="2.html">명예가족</a></li>
+    <li><a href="1.html" class="saw" id="active">직계가족</a></li><br>
+    <li><a href="2.html" class="saw">명예가족</a></li>
   </ol>
   <h2>직계가족의 생일과 아빠,엄마,형, 동생의 의미</h2>
   <p><a href="https://namu.wiki/w/%EC%95%84%EB%B9%A0" target="_blank" title="아빠에 대한 설명 by 나무위키">아빠</a> 음력 <strong><u>01</u>月 <u>27</u>日</strong></p>
