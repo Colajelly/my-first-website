@@ -23,23 +23,37 @@
     border-bottom:5px solid black;
     margin:0;
     padding:20px;
+  } 
+  #grid{
+    display:grid;
+    grid-template-columns:150px 1fr;
   }
   ol {
-    border-right:5px solid black;
-    width:100px;
+    padding-left:40px;
+    padding-bottom:25px;
+    border-bottom:5px solid black;
+  }
+  #article {
+    padding-left:25px;
+    border-left:5px solid black;
     margin:0;
-    padding:20px;
   }
 </style>
 </head>
 <body>
-  <h1><a href="index.html">우리 가족들</a></h1>
-  <ol>
-    <li><a href="1.html" class="saw">직계가족</a></li><br>
-    <li><a href="2.html" class="saw" id="active">명예가족</a></li>
-  </ol>
-  <img src="my mom.jpg" width="500"><br>
-  <h2>지민이의 생일과 여자친구의 의미</h2>
-  <p style="margin-top:60px;"><a href="https://namu.wiki/w/%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC" target="_blank" title="여자친구에 대한 설명 by나무위키">지민이</a> 양력 <strong><u>02</u>月 <u>17</u>日</strong></p>
-  </body>
+  <h1><a href="index.html">우리 가족들</a></h1> 
+  <div id="grid">
+    <div>
+      <ol>
+        <li><a href="1.html" class="saw">직계가족</a></li><br>
+        <li><a href="2.html" class="saw" id="active">명예가족</a></li>
+      </ol>
+    </div>
+      <div id="article">
+          <h2>지민이의 생일과 여자친구의 의미</h2>
+          <p><a href="https://namu.wiki/w/%EC%97%AC%EC%9E%90%EC%B9%9C%EA%B5%AC" target="_blank" title="여자친구에 대한 설명 by나무위키">지민이</a> 양력 <strong><u>02</u>月 <u>17</u>日</strong></p>
+          <img src="my mom.jpg" width="150">
+      </div>
+  </div>
+</body>
 </html>
